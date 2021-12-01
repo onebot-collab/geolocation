@@ -36,7 +36,7 @@ export default class App extends Component {
           this.setState(
             {
               latitude: "err-latitude",
-              longitude: "err-lcongitude",
+              longitude: "err-longitude",
             },
             () => this.Push()
           );
